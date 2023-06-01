@@ -97,7 +97,6 @@ echo -e "• ISP                 = $(cat /root/.isp)${NC}"
 echo -e "• Server Resource     = RAM = $persenmemori% | CPU = $persencpu%"
 echo -e "• Clients Name        = $Name"
 echo -e "• Expired Script VPS  = $Exp"
-
 echo -e ""
 echo -e "$COLOR1┌────────────────────────────────────────────────────────────┐${NC}"
 echo -e " ${COLOR2}[ SSH WebSocket${NC}: ${GREEN}ON ${NC}]  [ NGINX${NC}: ${status_nginx} ] ${COLOR2}[ Today  : $ttoday ]"
